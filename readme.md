@@ -2,7 +2,7 @@
 Potenciado con inteligencia artificial, usando LangChain, OpenAI, Chromadb para persistencia y Streamlit para un despligue web rapido.
 ![Esquema](https://github.com/vhngroup/pdf_reading_asisstant_With_LangChaing/blob/main/img/flow.png)
 ## Herramienta:
-Este asistente es un ejemplo en el cual le suministrar el archivo PDF que deseas analizar y luego a través del prompt y de preguntas de lenguaje natural, se le puede pedir al modelo que respondan a interrogantes 
+Este asistente es un ejemplo en el cual se le suministra un archivo PDF el cual deseas analizar y luego a través del prompt y de preguntas de lenguaje natural, se le puede pedir al modelo que respondan a interrogantes 
 * Se ha usado la API de OpenAI junto a LangChain y el modelo "gpt-3.5-turbo-16k".
 * Se ha usado la tecnica de "TextSplitter" en la cual el documento es fraccionado en segmentos mas pequeños para posteriormente crear los Embeddings.
 * Se hace uso de la base de datos vectorial Chromadb, con la cual se da persistencia al entrenamiento, con lo cual no es necesario procesar nuevamente el documento, luego de haber sido procesado por primera vez.
